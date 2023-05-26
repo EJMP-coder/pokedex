@@ -6,15 +6,11 @@ import Pokedex from './containers/Pokedex';
 function App() {
   return (
   <Router>
-    <AppNavigator/>
-    <Routes>
-      
-    
-     
-    <Route path='/' Component={Pokedex}/>
-    
-    </Routes>
-    
+
+    <AppNavigator/>    
+    <Routes>       
+    <Route path='/' Component={Pokedex}/>    
+    </Routes>    
   
   </Router>
   );
