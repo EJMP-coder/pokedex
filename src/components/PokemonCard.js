@@ -24,7 +24,7 @@ export default function PokemonCard(props) {
         <CardMedia  className={classes.cardMedia} image={image}></CardMedia>
         <CardContent>
             <Typography>
-                {name}
+                {(id ,name)}
             </Typography>
         </CardContent>
     </Card>
